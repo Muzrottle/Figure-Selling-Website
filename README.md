@@ -22,3 +22,9 @@ This was an old school project of mine and the topic was making a shopping websi
 </p>
 
 <br><br>
+
+<p float="left">
+
+  <img src="https://user-images.githubusercontent.com/57044969/211904597-a1b0eb1b-a91b-4a76-be31-64495bdee12f.png"  width="480" height="320"/>
+  
+</p>
