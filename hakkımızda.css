@@ -1,0 +1,16 @@
+.hakkımızda{
+    justify-content: center;
+    align-content: center;
+    display: block;
+    align-items: center;
+    margin: 80px 30px;
+}
+
+.hakkımızda h2{
+    font-family: "outfit";
+}
+
+.hakkımızda p{
+    margin-top: 40px;
+    font-family: "roboto";
+}

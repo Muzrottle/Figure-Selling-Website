@@ -1,0 +1,27 @@
+.iletisim{
+    justify-content: center;
+    align-content: center;
+    display: block;
+    align-items: center;
+    margin: 80px 30px;
+}
+
+.iletisim h2{
+    font-family: "outfit";
+    font-size: 36px;
+}
+
+.iletisim h3{
+    font-family: "outfit";
+    margin-top: 20px;
+}
+
+.iletisim #icerik{
+    margin-top: 20px;
+    font-family: "roboto";
+}
+
+.iletisim #adres{
+    font-family: "roboto";
+    margin-top: 10px;
+}

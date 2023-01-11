@@ -1,0 +1,66 @@
+.ürün{
+    margin-bottom: 40px;
+}
+
+.ürün img{
+    width: 400px;
+    height: 400px;
+    display: inline-table;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.ürün .aciklama h2{
+    font-family: "outfit";
+    display: inline-table;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.ürün .aciklama{
+    display: inline-table;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.ürün .aciklama p{
+    margin-top: 20px;
+    display: inline-table;
+}
+
+.ürün .sepet{
+    display: inline-table;
+    vertical-align: middle;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.ürün .sepet p{
+    display: block;
+    text-align: center;
+    font-family: "Open Sans";
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.ürün .sepet-btn{
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    background-color: #1294ce;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgb(247, 244, 244);
+    user-select: none;
+    transition: 0.5s;
+    font-family: "roboto";
+    border: none;
+}
+
+.ürün .sepet-btn:hover{
+    background-color: #16a9ec;
+    transition: 0.5s;
+}

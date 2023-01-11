@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@200&family=Roboto:wght@100&display=swap');
+
+section nav{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+section nav ul{
+    margin-left: 15px;
+    display: block;
+    margin-top: 50px;
+}
+
+section nav ul h4{
+    margin-top: 120px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    
+}
+
+section nav ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    
+}
+
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+main .content{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 1px rgb(170, 170, 170);
+}
+
+main .content .toy-img{
+    width: 95%;
+    margin: 5px 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main .content .toy-name{
+    font-family: "outfit";
+    margin-left: 5px;
+}
+
+main .content .toy-price{
+    font-family: "open sans";
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+main .content .add-cart{
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 35px;
+    padding: 8px 24px;
+    background-color: #1294ce;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    color: rgb(247, 244, 244);
+    user-select: none;
+    transition: 0.5s;
+}
+
+main .content .add-cart:hover{
+    background-color: #16a9ec;
+    transition: 0.5s;
+}
+
+main .page{
+    display: block;
+    
+}
+
+main .page ul{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    justify-content: center;
+
+}
+
+main .page ul li{
+    list-style: none;
+    margin: auto 0;
+    margin-right: 15px;
+    
+    
+}
+
+main .page ul li a{
+    text-decoration: none;
+    
+}

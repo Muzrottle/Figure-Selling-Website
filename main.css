@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@200&family=Roboto:wght@100&display=swap');
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .login
+{
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+.container .login .login-btn
+{
+    text-decoration: none;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #1294ce;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    color: rgb(247, 244, 244);
+    user-select: none;
+    transition: 0.5s;
+}
+
+.container .login .login-btn:hover{
+    background-color: #16a9ec;
+    transition: 0.5s;
+}
+
+
+.container .navbar{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.navbar .logo{
+    display: flex;
+    margin-left: 40px;
+}
+
+.navbar .logo .logo-img{
+    width: 140px;
+    height: 110px;
+}
+
+.navbar .search-bar{
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 40px;
+    border: 3px solid #1294ce;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+.navbar .search{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .search-input{
+    border: none;
+    outline: none;
+}
+
+
+.navbar ul#main{
+    display: flex;
+    float: right;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.navbar ul#main li{
+    float: left;
+    position: relative;
+    width: 120px;
+    list-style: none;
+}
+
+.navbar ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.navbar ul li a{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: #1294ce;
+}
+
+.navbar ul#main li:hover ul{
+    display: block;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    background-color: rgba(238, 238, 238, 10);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+section .position{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section .position a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb(3, 133, 219);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+    box-shadow: 0 0px 4px 0px rgb(170, 170, 170);
+    background-color: rgba(162, 201, 238, 0.808);
+}
+
+footer .foot ul{
+    list-style: none;
+    margin: 60px 70px;
+    display: inline-table;
+    
+}
+
+footer .foot ul li{
+    margin-top: 10px;
+    
+}
+
+footer .foot ul li a{
+    text-decoration: none;
+    font-family: "Outfit";
+}
+    

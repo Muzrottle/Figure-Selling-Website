@@ -1,0 +1,16 @@
+.misyon{
+    justify-content: center;
+    align-content: center;
+    display: block;
+    align-items: center;
+    margin: 80px 30px;
+}
+
+.misyon h2{
+    font-family: "outfit";
+}
+
+.misyon p{
+    margin-top: 40px;
+    font-family: "roboto";
+}
