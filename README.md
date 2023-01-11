@@ -13,3 +13,12 @@ This was an old school project of mine and the topic was making a shopping websi
 
 <br><br>
 
+<p float="left">
+
+  <img src="https://user-images.githubusercontent.com/57044969/211903983-d939396c-f25b-40fe-ac2e-18042bb23886.png"  width="480" height="320"/>
+  
+  <img src="https://user-images.githubusercontent.com/57044969/211904159-656f37fa-d681-4545-8c6d-3eca956ef098.png"  width="480" height="320"/>
+  
+</p>
+
+<br><br>
